@@ -98,17 +98,17 @@ st.header("📖 Как распознать признаки гриба")
 st.subheader("📏 Размер пластинок")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("images/gill_wide.jpg", caption="Широкие пластинки", use_container_width=True)
+    st.image("images/gill_wide.jpg", caption="Широкие пластинки")
 with col2:
-    st.image("images/gill_narrow.jpg", caption="Узкие пластинки", use_container_width=True)
+    st.image("images/gill_narrow.jpg", caption="Узкие пластинки")
 
 # Цвет пластинок
 st.subheader("🎨 Цвет пластинок")
-st.image("images/gill_color.jpg", caption="Пример фиолетового цвета пластинки", use_container_width=True)
+st.image("images/gill_color.jpg", caption="Пример фиолетового цвета пластинки")
 
 # Тип кольца
 st.subheader("🔘 Тип кольца")
-st.image("images/ring_type.jpg", caption="Пример вспышкообразного кольца", use_container_width=True)
+st.image("images/ring_type.jpg", caption="Пример вспышкообразного кольца")
 
 # Дополнительная информация
 st.markdown("### 🧭 Как определять другие признаки гриба")
